@@ -1,0 +1,132 @@
+{
+  "header": {
+    "name": "WAEL A. AL-GOSSLEY",
+    "jobTitle": "Electrical Engineer",
+    "phone": "+967 770 919 807",
+    "location": "Yemen, Sana'a",
+    "email": "waelalgossley@gmail.com"
+  },
+  "sections": {
+    "summary": {
+      "title": "Professional Summary",
+      "content": "Dedicated Electrical Engineer with over 3.5 years of specialized experience in maintenance operations within the pharmaceutical manufacturing industry. Proficient in electrical system design, PLC programming, and power system protection. Committed to applying technical expertise in competitive environments to drive innovation and operational excellence. Seeking opportunities to leverage my skills in electrical engineering to contribute to challenging projects and further develop my professional capabilities."
+    },
+    "personalInfo": {
+      "title": "Personal Information",
+      "items": [
+        {"icon": "fa-cake-candles", "text": "Date of Birth: April 22, 1996 (Amran, Yemen)"},
+        {"icon": "fa-flag", "text": "Nationality: Yemeni"},
+        {"icon": "fa-ring", "text": "Marital Status: Married"}
+      ]
+    },
+    "education": {
+      "title": "Education",
+      "items": [
+        {
+          "degree": "Bachelor's Degree in Electrical Engineering",
+          "university": "Sana'a University, Faculty of Engineering",
+          "period": "September 2016 - October 2021",
+          "gpa": "GPA: 71.30% (Good)"
+        },
+        {
+          "degree": "High School Diploma",
+          "period": "Graduated 2015",
+          "gpa": "GPA: 95.13% (Excellence)"
+        }
+      ]
+    },
+    "experience": {
+      "title": "Professional Experience",
+      "items": [
+        {
+          "title": "Electrical Maintenance Engineer",
+          "icon": "fa-bolt-lightning",
+          "company": "STAR PLUSE Pharma - Pharmaceutical Manufacturing Company",
+          "period": "2021 - Present",
+          "tasks": [
+            "Review and optimize electrical distribution drawings and plans for the company's facilities",
+            "Supervise electrical works execution and manage handover processes",
+            "Install, operate, maintain, and upgrade production machines while conducting SAT, FAT, OQ, and OP tests",
+            "Develop and implement comprehensive maintenance plans and documentation",
+            "Provide technical mentorship to university engineering students during internships",
+            "Operate and synchronize generators using DeepSee program",
+            "Design, install, and operate PV systems for energy efficiency"
+          ]
+        },
+        {
+          "title": "Trainee",
+          "icon": "fa-bolt",
+          "company": "Electrical Power Station",
+          "period": "May 2021",
+          "tasks": [
+            "Received hands-on training in power station operations and maintenance"
+          ]
+        }
+      ]
+    },
+    "skills": {
+      "title": "Skills",
+      "technical": {
+        "title": "Technical Skills",
+        "items": [
+          "AutoCAD",
+          "MATLAB",
+          "DIALux evo",
+          "ETAP 12.6.0",
+          "Ecodial Advanced",
+          "SIEMENS LOGO PLC",
+          "NI Multisim",
+          "MS Project",
+          "MS Office Suite"
+        ]
+      },
+      "engineering": {
+        "title": "Engineering Capabilities",
+        "items": [
+          "Electrical network design using MATLAB and Ecodial",
+          "Lighting design using DIALux",
+          "PLC programming and control systems",
+          "Power system protection",
+          "Industrial safety protocols",
+          "Electrical standards and codes compliance"
+        ]
+      },
+      "personal": {
+        "title": "Personal Skills",
+        "items": [
+          "Strong analytical and problem-solving abilities",
+          "Excellent teamwork and collaboration",
+          "Time management and punctuality",
+          "Adaptability and quick learning",
+          "Attention to detail",
+          "Technical documentation",
+          "Project management",
+          "Leadership and mentoring"
+        ]
+      },
+      "languages": {
+        "title": "Languages",
+        "items": [
+          {"name": "Arabic", "level": "Native", "percent": 100},
+          {"name": "English", "level": "Very Good", "percent": 80}
+        ]
+      }
+    },
+    "certifications": {
+      "title": "Certifications",
+      "items": [
+        "5 Thanks and Evaluation certificates",
+        "6 Participation certificates",
+        "2 Order evaluation certificates",
+        "2 Recommendation letters",
+        "2 Training certificates"
+      ]
+    }
+  },
+  "langSwitcher": {
+    "en": "EN",
+    "ar": "AR",
+    "switchToEn": "Switch to English",
+    "switchToAr": "التحويل إلى العربية"
+  }
+}
