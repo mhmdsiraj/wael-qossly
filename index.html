@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>سيرة ذاتية - وائل أحمد القصلي</title>
-    <meta name="author" content=" المهندس وائل أمين القصلي">
+     <meta name="author" content=" المهندس وائل أمين القصلي">
     <meta name="description" content="سيرة ذاتية احترافية للمهندس وائل أمين القصلي - مهندس كهرباء بخبرة في الصيانة والتصميم الصناعي والطاقة الشمسية.">
     <meta name="keywords" content="سيرة ذاتية, مهندس كهرباء, وائل أمين القصلي, كهرباء, هندسة, كهرباء صناعية, طاقة شمسية, PLC, صيانة, Engineering, Electrical Engineer, CV, Resume, Wael Algossley, Yemen, Sana'a, Industrial, Solar, Maintenance">
     <meta name="author" content="وائل أمين القصلي">
@@ -134,12 +134,134 @@
     <script>
     // === Bilingual CV Script ===
     const enDataUrl = 'cv_data_en.json';
-    const arData = { /* ...existing Arabic data... */ };
+    const arData = {
+      header: {
+        name: 'وائل أمين القصلي',
+        jobTitle: 'مهندس كهرباء',
+        phone: '+967 770 919 807',
+        location: 'اليمن، صنعاء',
+        email: 'waelalgossley@gmail.com'
+      },
+      sections: {
+        summary: {
+          title: 'الملخص المهني',
+          content: 'مهندس كهرباء متخصص يتمتع بخبرة تزيد عن 3.5 سنوات في عمليات الصيانة ضمن صناعة الأدوية. يمتلك كفاءة عالية في تصميم الأنظمة الكهربائية، وبرمجة وحدات التحكم المنطقية القابلة للبرمجة (PLC)، وحماية أنظمة الطاقة. ملتزم بتطبيق الخبرة التقنية في بيئات تنافسية لدفع عجلة الابتكار والتميز التشغيلي. يسعى للحصول على فرص للاستفادة من مهاراته في الهندسة الكهربائية للمساهمة في مشاريع مليئة بالتحديات وتطوير قدراته المهنية بشكل أكبر.'
+        },
+        personalInfo: {
+          title: 'المعلومات الشخصية',
+          items: [
+            {icon: 'fa-birthday-cake', text: 'تاريخ الميلاد: 22 أبريل 1996 (عمران، اليمن)'},
+            {icon: 'fa-flag', text: 'الجنسية: يمني'},
+            {icon: 'fa-ring', text: 'الحالة الاجتماعية: متزوج'}
+          ]
+        },
+        education: {
+          title: 'المؤهلات العلمية',
+          items: [
+            {degree: 'بكالوريوس في الهندسة الكهربائية', university: 'جامعة صنعاء، كلية الهندسة', period: 'سبتمبر 2016 - أكتوبر 2021', gpa: 'المعدل التراكمي: 71.30% (جيد)'},
+            {degree: 'شهادة الثانوية العامة', period: 'تخرج عام 2015', gpa: 'المعدل التراكمي: 95.13% (امتياز)'}
+          ]
+        },
+        experience: {
+          title: 'الخبرات العملية',
+          items: [
+            {title: 'مهندس صيانة كهربائية', icon: 'fa-bolt-lightning', company: 'شركة ستار بلس فارما - للصناعات الدوائية', period: '2021 - حتى الآن', tasks: [
+              'مراجعة وتحسين مخططات التوزيع الكهربائي لمنشآت الشركة.',
+              'الإشراف على تنفيذ الأعمال الكهربائية وإدارة عمليات التسليم.',
+              'تركيب وتشغيل وصيانة وتحديث آلات الإنتاج مع إجراء اختبارات SAT، FAT، OQ، OP.',
+              'تطوير وتنفيذ خطط صيانة شاملة وتوثيقها.',
+              'تقديم الإرشاد التقني لطلاب الهندسة الجامعيين خلال فترة التدريب.',
+              'تشغيل ومزامنة المولدات باستخدام برنامج DeepSee.',
+              'تصميم وتركيب وتشغيل أنظمة الطاقة الشمسية (PV) لتحقيق كفاءة الطاقة.'
+            ]},
+            {title: 'متدرب', icon: 'fa-bolt', company: 'محطة الطاقة الكهربائية', period: 'مايو 2021', tasks: [
+              'تلقي تدريب عملي في عمليات وتشغيل وصيانة محطات الطاقة.'
+            ]}
+          ]
+        },
+        skills: {
+          title: 'المهارات',
+          technical: {title: 'المهارات التقنية', items: ['AutoCAD','MATLAB','DIALux evo','ETAP 12.6.0','Ecodial Advanced','SIEMENS LOGO PLC','NI Multisim','MS Project','MS Office Suite']},
+          engineering: {title: 'القدرات الهندسية', items: ['تصميم الشبكات الكهربائية باستخدام MATLAB و Ecodial.','تصميم الإضاءة باستخدام DIALux.','برمجة PLC وأنظمة التحكم.','حماية أنظمة الطاقة.','بروتوكولات السلامة الصناعية.','الامتثال للمعايير والأكواد الكهربائية.']},
+          personal: {title: 'المهارات الشخصية', items: ['قدرات تحليلية قوية ومهارات حل المشكلات.','عمل جماعي وتعاون ممتاز.','إدارة الوقت والالتزام بالمواعيد.','القدرة على التكيف والتعلم السريع.','الاهتمام بالتفاصيل.','التوثيق الفني.','إدارة المشاريع.','القيادة والإرشاد.']},
+          languages: {title: 'اللغات', items: [
+            {name: 'العربية', level: 'اللغة الأم', percent: 100},
+            {name: 'الإنجليزية', level: 'جيد جداً', percent: 80}
+          ]}
+        },
+        certifications: {
+          title: 'الشهادات والتقديرات',
+          items: [
+            '5 شهادات شكر وتقييم',
+            '6 شهادات مشاركة',
+            '2 شهادات تقييم طلب',
+            '2 رسائل توصية',
+            '2 شهادات تدريب'
+          ]
+        }
+      },
+      langSwitcher: {
+        en: 'EN',
+        ar: 'AR',
+        switchToEn: 'Switch to English',
+        switchToAr: 'التحويل إلى العربية'
+      }
+    };
     let currentLang = localStorage.getItem('cvLang') || 'ar';
     let enData = null;
-    function renderCV(data, lang) { /* ...existing code... */ }
-    async function switchLang() { /* ...existing code... */ }
-    window.addEventListener('DOMContentLoaded', async () => { /* ...existing code... */ });
+    function renderCV(data, lang) {
+      document.documentElement.lang = lang === 'ar' ? 'ar' : 'en';
+      document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+      document.getElementById('langBtnText').textContent = lang === 'ar' ? arData.langSwitcher.en : arData.langSwitcher.ar;
+      let html = '';
+      html += `<div class='container mx-auto max-w-4xl p-4 md:p-8 my-8 bg-white shadow-2xl rounded-lg electrical-glow'>`;
+      html += `<header class='flex flex-col md:flex-row items-center justify-between p-6 md:p-8 border-b-2 border-blue-500 bg-gradient-to-r from-gray-800 via-gray-700 to-blue-900 text-white rounded-t-lg'>`;
+      html += `<div class='flex flex-col md:flex-row items-center text-center md:text-right'>`;
+      html += `<div class='profile-img-container mb-4 md:mb-0 md:mr-6 order-1 md:order-2'><img src='wael.jpg' alt='' class='profile-img' onerror="this.onerror=null; this.src='https://placehold.co/160x160/E0E0E0/B0B0B0?text=Profile+Photo';"></div>`;
+      html += `<div class='order-2 md:order-1'><h1 class='text-4xl md:text-5xl font-bold text-yellow-400'>${data.header.name}</h1><h2 class='text-xl md:text-2xl font-light text-blue-300 mt-1'>${data.header.jobTitle}</h2><div class='mt-4 flex flex-wrap justify-center md:justify-start space-x-2 md:space-x-0 md:space-x-reverse md:space-x-4 text-sm'>`;
+      html += `<a href='tel:${data.header.phone}' class='contact-item flex items-center hover:text-yellow-300 my-1 md:my-0'><i class='fas fa-phone-alt ml-2 text-blue-400'></i><span>${data.header.phone}</span></a>`;
+      html += `<span class='hidden md:inline text-gray-500'>|</span>`;
+      html += `<a href='mailto:${data.header.email}' class='contact-item flex items-center hover:text-yellow-300 my-1 md:my-0'><i class='fas fa-envelope ml-2 text-blue-400'></i><span>${data.header.email}</span></a>`;
+      html += `<span class='hidden md:inline text-gray-500'>|</span>`;
+      html += `<div class='contact-item flex items-center my-1 md:my-0'><i class='fas fa-map-marker-alt ml-2 text-blue-400'></i><span>${data.header.location}</span></div>`;
+      html += `</div></div></div></header>`;
+      html += `<div class='p-4 md:p-6 text-center no-print'><button onclick='window.print()' class='bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 ease-in-out transform hover:-translate-y-1'><i class='fas fa-download ml-2'></i> ${lang === 'ar' ? 'تحميل السيرة الذاتية (PDF)' : 'Download CV (PDF)'}</button></div>`;
+      html += `<main class='p-6 md:p-8'>`;
+      html += `<section class='mb-8 section'><h3 class='section-title text-2xl font-semibold text-blue-700 border-b-2 border-yellow-400 pb-2 mb-4 flex items-center'><i class='fas fa-user-tie ml-3 text-yellow-500 section-title-icon'></i>${data.sections.summary.title}</h3><p class='text-gray-700 leading-relaxed text-justify'>${data.sections.summary.content}</p></section>`;
+      html += `<section class='mb-8 section'><h3 class='section-title text-2xl font-semibold text-blue-700 border-b-2 border-yellow-400 pb-2 mb-4 flex items-center'><i class='fas fa-id-card ml-3 text-yellow-500 section-title-icon'></i>${data.sections.personalInfo.title}</h3><ul class='list-none space-y-2 text-gray-700'>${data.sections.personalInfo.items.map(item => `<li class='flex items-center'><i class='fas ${item.icon} ml-3 text-blue-500'></i>${item.text}</li>`).join('')}</ul></section>`;
+      html += `<section class='mb-8 section'><h3 class='section-title text-2xl font-semibold text-blue-700 border-b-2 border-yellow-400 pb-2 mb-4 flex items-center'><i class='fas fa-graduation-cap ml-3 text-yellow-500 section-title-icon'></i>${data.sections.education.title}</h3><div class='space-y-6'>${data.sections.education.items.map(edu => `<div class='p-4 bg-blue-50 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300'><h4 class='text-lg font-semibold text-blue-800'>${edu.degree}</h4>${edu.university ? `<p class='text-gray-600'>${edu.university}</p>` : ''}<p class='text-sm text-gray-500 italic'>${edu.period}</p><p class='text-sm text-gray-500'>${edu.gpa}</p></div>`).join('')}</div></section>`;
+      html += `<section class='mb-8 section'><h3 class='section-title text-2xl font-semibold text-blue-700 border-b-2 border-yellow-400 pb-2 mb-4 flex items-center'><i class='fas fa-briefcase ml-3 text-yellow-500 section-title-icon'></i>${data.sections.experience.title}</h3><div class='space-y-6'>${data.sections.experience.items.map(exp => `<div class='p-4 bg-green-50 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300'><h4 class='text-lg font-semibold text-green-800'>${exp.title}</h4><p class='text-gray-600'>${exp.company}</p><p class='text-sm text-gray-500 italic'>${exp.period}</p><ul class='list-disc list-inside mt-2 space-y-1 text-gray-700 pl-4'>${exp.tasks.map(task => `<li>${task}</li>`).join('')}</ul></div>`).join('')}</div></section>`;
+      html += `<section class='mb-8 section'><h3 class='section-title text-2xl font-semibold text-blue-700 border-b-2 border-yellow-400 pb-2 mb-4 flex items-center'><i class='fas fa-cogs ml-3 text-yellow-500 section-title-icon'></i>${data.sections.skills.title}</h3><div class='grid grid-cols-1 md:grid-cols-2 gap-6'><div><h4 class='text-lg font-semibold text-blue-600 mb-3 flex items-center'><i class='fas fa-tools ml-2 text-blue-500'></i>${data.sections.skills.technical.title}</h4><div class='flex flex-wrap gap-2'>${data.sections.skills.technical.items.map(skill => `<span class='skill-item bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-sm shadow hover:bg-blue-500 hover:text-white'>${skill}</span>`).join('')}</div></div><div><h4 class='text-lg font-semibold text-blue-600 mb-3 flex items-center'><i class='fas fa-drafting-compass ml-2 text-blue-500'></i>${data.sections.skills.engineering.title}</h4><ul class='list-disc list-inside space-y-1 text-gray-700 pl-4'>${data.sections.skills.engineering.items.map(skill => `<li>${skill}</li>`).join('')}</ul></div><div><h4 class='text-lg font-semibold text-blue-600 mb-3 flex items-center'><i class='fas fa-users-cog ml-2 text-blue-500'></i>${data.sections.skills.personal.title}</h4><ul class='list-disc list-inside space-y-1 text-gray-700 pl-4'>${data.sections.skills.personal.items.map(skill => `<li>${skill}</li>`).join('')}</ul></div><div><h4 class='text-lg font-semibold text-blue-600 mb-3 flex items-center'><i class='fas fa-language ml-2 text-blue-500'></i>${data.sections.skills.languages.title}</h4><div class='space-y-3'>${data.sections.skills.languages.items.map(lang => `<div><div class='flex justify-between mb-1'><span class='text-base font-medium text-gray-700'>${lang.name}</span><span class='text-sm font-medium text-blue-700'>${lang.level}</span></div><div class='w-full bg-gray-200 rounded-full h-2.5'><div class='bg-gradient-to-r from-blue-500 to-green-400 h-2.5 rounded-full' style='width: ${lang.percent}%'></div></div></div>`).join('')}</div></div></div></section>`;
+      html += `<section class='mb-8 section'><h3 class='section-title text-2xl font-semibold text-blue-700 border-b-2 border-yellow-400 pb-2 mb-4 flex items-center'><i class='fas fa-certificate ml-3 text-yellow-500 section-title-icon'></i>${data.sections.certifications.title}</h3><ul class='list-disc list-inside space-y-1 text-gray-700 pl-4'>${data.sections.certifications.items.map(cert => `<li>${cert}</li>`).join('')}</ul></section>`;
+      html += `<div class='p-4 md:p-6 text-center no-print'><button onclick='window.print()' class='bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-6 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 ease-in-out transform hover:-translate-y-1'><i class='fas fa-file-pdf ml-2'></i> ${lang === 'ar' ? 'حفظ كـ PDF' : 'Save as PDF'}</button></div>`;
+      html += `<footer class='text-center p-6 bg-gray-800 text-gray-300 rounded-b-lg'><p>&copy; <span id='currentYear'></span> ${lang === 'ar' ? 'وائل أحمد القصلي. جميع الحقوق محفوظة.' : 'Wael Ahmed Al-Gossley. All rights reserved.'}</p><p class='text-xs mt-1'>${lang === 'ar' ? `تصميم وتطوير بواسطة <a href='https://sirajj.tech' target='_blank' rel='noopener' class='inline-block font-bold px-4 py-1 rounded-full bg-gradient-to-r from-yellow-400 via-blue-500 to-green-400 text-white shadow-lg hover:from-blue-500 hover:to-yellow-400 transition-all duration-300 border-2 border-white hover:scale-105' style='margin-right: 0.3em; margin-left: 0.3em;'>م. محمد سراج</a>` : `Designed and Developed by <a href='https://sirajj.tech' target='_blank' rel='noopener' class='inline-block font-bold px-4 py-1 rounded-full bg-gradient-to-r from-yellow-400 via-blue-500 to-green-400 text-white shadow-lg hover:from-blue-500 hover:to-yellow-400 transition-all duration-300 border-2 border-white hover:scale-105' style='margin-right: 0.3em; margin-left: 0.3em;'>Mohammed Sirajj</a>`}</p></footer>`;
+      html += `</div>`;
+      document.getElementById('cvContent').innerHTML = html;
+      document.getElementById('currentYear').textContent = new Date().getFullYear();
+    }
+    async function switchLang() {
+      currentLang = currentLang === 'ar' ? 'en' : 'ar';
+      localStorage.setItem('cvLang', currentLang);
+      if (currentLang === 'ar') {
+        renderCV(arData, 'ar');
+      } else {
+        if (!enData) {
+          const res = await fetch(enDataUrl);
+          enData = await res.json();
+        }
+        renderCV(enData, 'en');
+      }
+    }
+    window.addEventListener('DOMContentLoaded', async () => {
+      document.getElementById('langToggleBtn').addEventListener('click', switchLang);
+      if (currentLang === 'ar') {
+        renderCV(arData, 'ar');
+      } else {
+        const res = await fetch(enDataUrl);
+        enData = await res.json();
+        renderCV(enData, 'en');
+      }
+    });
     </script>
 </body>
 </html>
