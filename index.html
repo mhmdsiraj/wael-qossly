@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سيرة ذاتية - وائل أحمد القصلي</title>
+    <meta name="author" content=" المهندس وائل أمين القصلي">
+    <meta name="description" content="سيرة ذاتية احترافية للمهندس وائل أمين القصلي - مهندس كهرباء بخبرة في الصيانة والتصميم الصناعي والطاقة الشمسية.">
+    <meta name="keywords" content="سيرة ذاتية, مهندس كهرباء, وائل أمين القصلي, كهرباء, هندسة, كهرباء صناعية, طاقة شمسية, PLC, صيانة, Engineering, Electrical Engineer, CV, Resume, Wael Algossley, Yemen, Sana'a, Industrial, Solar, Maintenance">
+    <meta name="author" content="وائل أمين القصلي">
+    <meta property="og:title" content="سيرة ذاتية - وائل أمين القصلي">
+    <meta property="og:description" content="سيرة ذاتية احترافية للمهندس وائل أمين القصلي - مهندس كهرباء بخبرة في الصيانة والتصميم الصناعي والطاقة الشمسية.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="wael.jpg">
+    <meta property="og:locale" content="ar_YE">
+    <meta name="robots" content="index, follow">
+    <!-- Favicon  -->
+    <link rel="icon" href="wael.jpg" type="image/jpg">
+    <link rel="apple-touch-icon" href="wael.jpg">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="wael.jpg">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="viewport-fit" content="cover">
+  
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Cairo', sans-serif;
+            direction: inherit; /* Inherit direction from html[dir] for dynamic LTR/RTL */
+        }
+        .circuit-bg {
+            background-image:
+                linear-gradient(rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%),
+                url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23d4e6ff' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+
+        .electrical-glow {
+            box-shadow: 0 0 15px rgba(52, 152, 219, 0.5), 0 0 30px rgba(255, 224, 0, 0.4);
+        }
+
+        .profile-img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #3B82F6; /* Tailwind blue-500 */
+            box-shadow: 0 0 20px #FBBF24, 0 0 10px #3B82F6 inset; /* Tailwind yellow-400 and blue-500 */
+        }
+
+        .profile-img-container {
+            position: relative;
+        }
+
+        .section-title-icon {
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .section:hover .section-title-icon {
+            transform: rotateY(180deg);
+        }
+
+        .skill-item {
+            transition: all 0.3s ease;
+        }
+
+        .contact-item i {
+            transition: color 0.3s ease;
+        }
+
+        .contact-item:hover i {
+            color: #FBBF24; /* Tailwind yellow-400 */
+        }
+
+        /* Dynamic direction-aware CSS overrides */
+        html[dir="ltr"] .ml-3 { margin-left: 0 !important; margin-right: 0.75rem !important; }
+        html[dir="ltr"] .ml-2 { margin-left: 0 !important; margin-right: 0.5rem !important; }
+        @media (min-width: 768px) {
+          html[dir="ltr"] .md\\:text-right { text-align: left !important; }
+        }
+
+        @media print {
+            .no-print {
+                display: none !important;
+            }
+            body {
+                font-size: 10pt; /* Adjust font size for print */
+            }
+            .container {
+                box-shadow: none !important;
+                margin: 0;
+                max-width: 100%;
+                border: none;
+            }
+            header, footer {
+                background: none !important;
+                color: #000 !important; /* Ensure text is black for printing */
+            }
+            header h1, header h2, header a, header span, header i {
+                color: #000 !important; /* Ensure header text is black */
+            }
+             .profile-img {
+                border: 2px solid #ccc; /* Simpler border for print */
+                box-shadow: none;
+            }
+            .bg-gray-800, .bg-gradient-to-r { /* Remove dark backgrounds */
+                background-color: transparent !important;
+                background-image: none !important;
+            }
+            .text-white, .text-blue-300, .text-yellow-400, .text-blue-700, .text-yellow-500, .text-blue-500, .text-blue-800, .text-green-800, .text-blue-600, .text-gray-300 {
+                color: #000 !important; /* Ensure all text is black */
+            }
+            .border-blue-500, .border-yellow-400 {
+                border-color: #ccc !important; /* Lighter borders for print */
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800 circuit-bg">
+    <div style="position: absolute; top: 24px; left: 32px; z-index: 1000;" class="no-print">
+        <button id="langToggleBtn" class="flex items-center gap-2 bg-white border-2 border-blue-500 text-blue-700 font-bold px-4 py-2 rounded-full shadow hover:bg-blue-50 hover:text-blue-900 transition-all duration-200">
+            <i class="fas fa-language text-xl"></i>
+            <span id="langBtnText">EN</span>
+        </button>
+    </div>
+    <div id="cvContent">
+        <!-- CV content will be rendered here by JS -->
+    </div>
+    <script>
+    // === Bilingual CV Script ===
+    const enDataUrl = 'cv_data_en.json';
+    const arData = { /* ...existing Arabic data... */ };
+    let currentLang = localStorage.getItem('cvLang') || 'ar';
+    let enData = null;
+    function renderCV(data, lang) { /* ...existing code... */ }
+    async function switchLang() { /* ...existing code... */ }
+    window.addEventListener('DOMContentLoaded', async () => { /* ...existing code... */ });
+    </script>
+</body>
+</html>
